@@ -22,3 +22,15 @@ git clone <COMMAND> <V>
 
 Step 3 for this lab is to run the junit tests proving that the code fails and has a bug.
   
+I did this by typing the following:
+  
+javac -cp "./lib/hamcrest-core-1.3.jar:./lib/junit-4.13.2.jar" T<TAB> L<TAB>
+
+This placed the following in the command line:
+  
+javac -cp "./lib/hamcrest-core-1.3.jar:./lib/junit-4.13.2.jar" TestListExamples.java ListExamples.java
+  
+Running the command gave this failure output:
+  
+![step4.png](/step4.png)
+
