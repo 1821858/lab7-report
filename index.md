@@ -34,3 +34,35 @@ Running the command gave this failure output:
   
 ![step4.png](/step4.png)
 
+Step 4 for this lab is to edit the file ListExamples.java to correct the bug.
+  
+I did this by using nano to open and navigate to the bug and fix it. I did this by typing the following:
+  
+nano ListExamples.java
+  
+Once the file was open I used the arrow keys to navigate to "List1" in the last while loop, and change it to "List2".
+This resolves the bug, and we can save, recompile, and rerun the tests, seen here passing.
+  
+![step5.png](/step5.png)
+  
+Now that our bug has been resolved and our code passes the tests, we can commit to this change.
+  
+We do this by using the git add, git commit, and git push commands.
+  
+Step 6 is to add the new files.
+  
+We do this with the following command:
+  
+git add --all
+  
+Step 7 is to commit the changes
+  
+git commit -m Updated
+  
+And step 8 is to push this to our git repository
+  
+git push
+  
+These steps are shown here
+  
+![step6.png](/step6.png)
