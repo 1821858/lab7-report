@@ -19,3 +19,6 @@ git clone <COMMAND> <V>
 -- command v pasted the following: git@github.com:1821858/lab7.git
   
 ![step2.png](/step2.png)
+
+Step 3 for this lab is to run the junit tests proving that the code fails and has a bug.
+  
